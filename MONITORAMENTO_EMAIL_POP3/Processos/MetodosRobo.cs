@@ -11,6 +11,14 @@ using System.Threading.Tasks;
 
 namespace MONITORAMENTO_EMAIL_POP3.Processos
 {
+
+    /**
+     *Autor: Alex Yudy Kitahara
+     *Data: 2022/08/23
+     *Descrição: Classe responsável por guardar os métodos
+     **/
+
+    
     class MetodosRobo
     {
         Browser brw = null;

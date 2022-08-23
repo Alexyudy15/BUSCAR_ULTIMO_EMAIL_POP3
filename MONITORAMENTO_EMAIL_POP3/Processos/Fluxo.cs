@@ -8,6 +8,11 @@ namespace MONITORAMENTO_EMAIL_POP3.Processos
 {
     class Fluxo : MetodosRobo
     {
+
+        /**
+        *Autor: Alex Yudy Kitahara
+        *Data: 2022/08/23
+        **/
         public void Executar(string Enderecohost, string senha, string emailMonitorado)
         {
             MonitoraEmail(Enderecohost, senha,emailMonitorado);

@@ -11,6 +11,12 @@ namespace MONITORAMENTO_EMAIL_POP3.Email
     static class ServerEmail
     {
 
+        /**
+        *Autor: Alex Yudy Kitahara
+        *Data: 2022/08/23
+        *Descrição: Classe responsável por autenticar e acessar o E-mail do host 
+        **/
+
 
         public static List<EmailDTO> GetAllEmailsFrom(string server, int port, bool useSsl, string username, string password, string EmailFrom)
         {

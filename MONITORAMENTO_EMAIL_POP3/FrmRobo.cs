@@ -15,6 +15,13 @@ namespace MONITORAMENTO_EMAIL_POP3
 {
     public partial class FrmRobo : MetroForm
     {
+
+    /**
+    *Autor: Alex Yudy Kitahara
+    *Data: 2022/08/23
+    *Descrição: Form 
+    **/
+
         Fluxo fluxo = new Fluxo();
         public FrmRobo()
         {
