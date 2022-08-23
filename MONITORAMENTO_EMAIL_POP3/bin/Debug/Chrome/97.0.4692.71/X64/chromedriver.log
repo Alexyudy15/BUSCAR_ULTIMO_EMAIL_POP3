@@ -1,0 +1,1512 @@
+[1661262352.412][INFO]: Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 65463
+[1661262352.412][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1661262353.126][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--no-default-browser-check", "--disable-infobars", "no-sandbox", "--start-maximized", "--ignore-certificate-errors", "--disable-popup-blocking", "--app=", "--start-maximized", "--disable-notifications" ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "profile.password_manager_enabled": false
+            }
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--no-default-browser-check", "--disable-infobars", "no-sandbox", "--start-maximized", "--ignore-certificate-errors", "--disable-popup-blocking", "--app=", "--start-maximized", "--disable-notifications" ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "profile.password_manager_enabled": false
+         }
+      }
+   }
+}
+[1661262353.130][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1661262353.131][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1661262353.134][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --app --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-default-browser-check --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\883502\AppData\Local\Temp\scoped_dir4912_978398505" data:,
+[1661262353.493][DEBUG]: DevTools HTTP Request: http://localhost:65466/json/version
+[1661262353.978][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/97.0.4692.99",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36",
+   "V8-Version": "9.7.106.19",
+   "WebKit-Version": "537.36 (@d740da257583289dbebd2eb37e8668928fac5ead)",
+   "webSocketDebuggerUrl": "ws://localhost:65466/devtools/browser/87da4110-a11b-4f02-a554-8676d927c252"
+}
+
+[1661262353.978][DEBUG]: DevTools HTTP Request: http://localhost:65466/json/list
+[1661262353.979][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:65466/devtools/page/4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "id": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:65466/devtools/page/4E67CF02F6E17D35D8ED29752D7B2EE2"
+} ]
+
+[1661262353.979][DEBUG]: DevTools HTTP Request: http://localhost:65466/json/list
+[1661262353.980][DEBUG]: DevTools HTTP Response: [ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:65466/devtools/page/4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "id": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "title": "data:,",
+   "type": "page",
+   "url": "data:,",
+   "webSocketDebuggerUrl": "ws://localhost:65466/devtools/page/4E67CF02F6E17D35D8ED29752D7B2EE2"
+} ]
+
+[1661262353.986][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1661262353.986][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=1) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=2) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol = window.Symbol;}) ();"
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: Log.enable (id=3) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=4) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=5) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "autoAttach": true,
+   "flatten": true,
+   "waitForDebuggerOnStart": false
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: Page.enable (id=6) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.987][DEBUG]: DevTools WebSocket Command: Page.enable (id=7) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=1) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "identifier": "1"
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=2) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "undefined"
+   }
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Log.enable (id=3) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=4) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 3,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 4,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 2
+         } ],
+         "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+         "localName": "html",
+         "nodeId": 2,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 1
+      } ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=5) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Page.enable (id=6) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Page.enable (id=7) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "1517393060087992834.-8785381639861956336"
+   }
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Command: Page.enable (id=9) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Response: Page.enable (id=9) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.988][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.989][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262353.989][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1661262353.991][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": 1
+      }
+   }
+}
+[1661262353.991][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "97.0.4692.99",
+      "chrome": {
+         "chromedriverVersion": "97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})",
+         "userDataDir": "C:\\Users\\883502\\AppData\\Local\\Temp\\scoped_dir4912_978398505"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65466"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d8099030ce92a8c6871014ebed2c6c93"
+}
+[1661262355.172][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND Navigate {
+   "url": "https://brasilcap--dev.my.salesforce.com"
+}
+[1661262355.172][INFO]: Waiting for pending navigations...
+[1661262355.173][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262355.173][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262355.173][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=13) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262355.174][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=13) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "children": [ {
+         "attributes": [  ],
+         "backendNodeId": 2,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 3,
+            "childNodeCount": 0,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [  ],
+            "backendNodeId": 4,
+            "childNodeCount": 0,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 5
+      } ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 5,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1661262355.174][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1661262355.175][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1661262355.175][INFO]: Done waiting for pending navigations. Status: ok
+[1661262355.175][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "url": "https://brasilcap--dev.my.salesforce.com"
+}
+[1661262356.777][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "loaderId": "3864A67580099B3503F69C57E81E3F5C"
+}
+[1661262356.777][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "document.URL"
+}
+[1661262356.778][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262356.778][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2"
+}
+[1661262356.790][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262356.790][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "salesforce.com",
+      "gatedAPIFeatures": [  ],
+      "id": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "loaderId": "3864A67580099B3503F69C57E81E3F5C",
+      "mimeType": "text/html",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://brasilcap--dev.my.salesforce.com",
+      "url": "https://brasilcap--dev.my.salesforce.com/"
+   },
+   "type": "Navigation"
+}
+[1661262356.790][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "https://brasilcap--dev.my.salesforce.com",
+      "uniqueId": "-7912192493606337031.-2379797540158590274"
+   }
+}
+[1661262356.790][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262356.790][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=17) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262356.796][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "string",
+      "value": "https://brasilcap--dev.my.salesforce.com/"
+   }
+}
+[1661262356.796][INFO]: Waiting for pending navigations...
+[1661262356.797][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=17) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://brasilcap--dev.my.salesforce.com/",
+      "childNodeCount": 0,
+      "children": [  ],
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "https://brasilcap--dev.my.salesforce.com/",
+      "localName": "",
+      "nodeId": 1,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1661262356.797][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262356.798][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "node": {
+      "backendNodeId": 2,
+      "localName": "",
+      "nodeId": 2,
+      "nodeName": "html",
+      "nodeType": 10,
+      "nodeValue": "",
+      "publicId": "-//W3C//DTD XHTML 1.0 Transitional//EN",
+      "systemId": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 0
+}
+[1661262356.798][DEBUG]: DevTools WebSocket Event: DOM.childNodeInserted 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "node": {
+      "attributes": [ "xmlns", "http://www.w3.org/1999/xhtml", "style", "visibility: visible;", "lang", "pt-br", "xml:lang", "pt-br" ],
+      "backendNodeId": 3,
+      "childNodeCount": 0,
+      "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "localName": "html",
+      "nodeId": 3,
+      "nodeName": "HTML",
+      "nodeType": 1,
+      "nodeValue": ""
+   },
+   "parentNodeId": 1,
+   "previousNodeId": 2
+}
+[1661262356.798][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "childNodeCount": 1,
+   "nodeId": 3
+}
+[1661262356.798][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.159][DEBUG]: DevTools WebSocket Event: DOM.childNodeCountUpdated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "childNodeCount": 2,
+   "nodeId": 3
+}
+[1661262357.160][DEBUG]: DevTools WebSocket Event: Page.frameAttached 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574",
+   "parentFrameId": "4E67CF02F6E17D35D8ED29752D7B2EE2"
+}
+[1661262357.160][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.160][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574"
+}
+[1661262357.180][DEBUG]: DevTools WebSocket Event: Page.frameAttached 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278",
+   "parentFrameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 324,
+         "functionName": "d",
+         "lineNumber": 31,
+         "scriptId": "10",
+         "url": "https://brasilcap--dev.my.salesforce.com/jslibrary/SfdcSessionBase208.js"
+      }, {
+         "columnNumber": 423,
+         "functionName": "getIdentities",
+         "lineNumber": 32,
+         "scriptId": "10",
+         "url": "https://brasilcap--dev.my.salesforce.com/jslibrary/SfdcSessionBase208.js"
+      }, {
+         "columnNumber": 184,
+         "functionName": "q",
+         "lineNumber": 20,
+         "scriptId": "11",
+         "url": "https://brasilcap--dev.my.salesforce.com/jslibrary/LoginHint208.js"
+      }, {
+         "columnNumber": 145,
+         "functionName": "v",
+         "lineNumber": 23,
+         "scriptId": "11",
+         "url": "https://brasilcap--dev.my.salesforce.com/jslibrary/LoginHint208.js"
+      }, {
+         "columnNumber": 2936,
+         "functionName": "",
+         "lineNumber": 21,
+         "scriptId": "13",
+         "url": "https://brasilcap--dev.my.salesforce.com/"
+      } ]
+   }
+}
+[1661262357.180][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278"
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "49BE62EFD0550644EF7AA3FCF55D4278",
+      "loaderId": "26E25E1E84E6CBD2219694A755BADD69",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "49BE62EFD0550644EF7AA3FCF55D4278",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "https://brasilcap--dev.my.salesforce.com",
+      "uniqueId": "-4497840816105001909.-4524504738726997402"
+   }
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278"
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "delay": 0,
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278",
+   "reason": "scriptInitiated",
+   "url": "https://test.salesforce.com/login/sessionserver212.html"
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "disposition": "currentTab",
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278",
+   "reason": "scriptInitiated",
+   "url": "https://test.salesforce.com/login/sessionserver212.html"
+}
+[1661262357.183][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278"
+}
+[1661262357.186][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278"
+}
+[1661262357.186][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.186][DEBUG]: DevTools WebSocket Event: Page.frameResized 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262357.186][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.187][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.336][DEBUG]: DevTools WebSocket Event: DOM.documentUpdated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262357.337][DEBUG]: DevTools WebSocket Command: DOM.getDocument (id=21) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+
+}
+[1661262357.337][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "timestamp": 63416.799454
+}
+[1661262357.337][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.337][DEBUG]: DevTools WebSocket Response: DOM.getDocument (id=21) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "root": {
+      "backendNodeId": 1,
+      "baseURL": "https://brasilcap--dev.my.salesforce.com/",
+      "childNodeCount": 2,
+      "children": [ {
+         "backendNodeId": 2,
+         "localName": "",
+         "nodeId": 5,
+         "nodeName": "html",
+         "nodeType": 10,
+         "nodeValue": "",
+         "parentId": 4,
+         "publicId": "-//W3C//DTD XHTML 1.0 Transitional//EN",
+         "systemId": "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+      }, {
+         "attributes": [ "xmlns", "http://www.w3.org/1999/xhtml", "style", "visibility: visible;", "lang", "pt-br", "xml:lang", "pt-br" ],
+         "backendNodeId": 3,
+         "childNodeCount": 2,
+         "children": [ {
+            "attributes": [  ],
+            "backendNodeId": 8,
+            "childNodeCount": 13,
+            "localName": "head",
+            "nodeId": 7,
+            "nodeName": "HEAD",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         }, {
+            "attributes": [ "onload", "lazyload();" ],
+            "backendNodeId": 9,
+            "childNodeCount": 8,
+            "localName": "body",
+            "nodeId": 8,
+            "nodeName": "BODY",
+            "nodeType": 1,
+            "nodeValue": "",
+            "parentId": 6
+         } ],
+         "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+         "localName": "html",
+         "nodeId": 6,
+         "nodeName": "HTML",
+         "nodeType": 1,
+         "nodeValue": "",
+         "parentId": 4
+      } ],
+      "compatibilityMode": "LimitedQuirksMode",
+      "documentURL": "https://brasilcap--dev.my.salesforce.com/",
+      "localName": "",
+      "nodeId": 4,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1661262357.337][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.358][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "salesforce.com",
+      "gatedAPIFeatures": [  ],
+      "id": "CB93B15611743A6248B97655A14A6574",
+      "loaderId": "331FBDB4116244E36A7CCCD3B468B2F9",
+      "mimeType": "image/gif",
+      "name": "marketing",
+      "parentId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://brasilcap--dev.my.salesforce.com",
+      "url": "https://brasilcap--dev.my.salesforce.com/s.gif"
+   },
+   "type": "Navigation"
+}
+[1661262357.358][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "CB93B15611743A6248B97655A14A6574",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "https://brasilcap--dev.my.salesforce.com",
+      "uniqueId": "7039178063021423513.-5938778841521894982"
+   }
+}
+[1661262357.358][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.359][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.365][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574"
+}
+[1661262357.365][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.365][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.865][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.867][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262357.964][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "executionContextId": 2
+}
+[1661262357.964][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "salesforce.com",
+      "gatedAPIFeatures": [  ],
+      "id": "49BE62EFD0550644EF7AA3FCF55D4278",
+      "loaderId": "D8984DC3BA912AD07F0F6B52C481E40B",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://test.salesforce.com",
+      "url": "https://test.salesforce.com/login/sessionserver212.html"
+   },
+   "type": "Navigation"
+}
+[1661262357.964][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "49BE62EFD0550644EF7AA3FCF55D4278",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "https://test.salesforce.com",
+      "uniqueId": "-9085480115220739427.-3285149453683112216"
+   }
+}
+[1661262357.965][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262357.965][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262358.344][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "49BE62EFD0550644EF7AA3FCF55D4278"
+}
+[1661262358.344][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262358.344][DEBUG]: DevTools WebSocket Event: Page.frameScheduledNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "delay": 0,
+   "frameId": "CB93B15611743A6248B97655A14A6574",
+   "reason": "scriptInitiated",
+   "url": "https://c.salesforce.com/login-messages/br/promos.html"
+}
+[1661262358.344][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "disposition": "currentTab",
+   "frameId": "CB93B15611743A6248B97655A14A6574",
+   "reason": "scriptInitiated",
+   "url": "https://c.salesforce.com/login-messages/br/promos.html"
+}
+[1661262358.344][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574"
+}
+[1661262358.345][DEBUG]: DevTools WebSocket Event: Page.frameClearedScheduledNavigation 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574"
+}
+[1661262358.345][DEBUG]: DevTools WebSocket Event: Page.loadEventFired 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "timestamp": 63417.808607
+}
+[1661262358.345][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true
+}
+[1661262358.346][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262358.346][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1661262358.346][INFO]: Done waiting for pending navigations. Status: ok
+[1661262358.346][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE Navigate
+[1661262368.068][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@title='User']"
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "executionContextId": 3
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "salesforce.com",
+      "gatedAPIFeatures": [  ],
+      "id": "CB93B15611743A6248B97655A14A6574",
+      "loaderId": "919A1525C3D3C80AD00C725C546F7A40",
+      "mimeType": "text/html",
+      "name": "marketing",
+      "parentId": "4E67CF02F6E17D35D8ED29752D7B2EE2",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://c.salesforce.com",
+      "url": "https://c.salesforce.com/login-messages/br/promos.html"
+   },
+   "type": "Navigation"
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "CB93B15611743A6248B97655A14A6574",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "https://c.salesforce.com",
+      "uniqueId": "2521746288155372314.462657201624154741"
+   }
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Log.entryAdded 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "entry": {
+      "level": "error",
+      "lineNumber": 19,
+      "networkRequestId": "13076.56",
+      "source": "network",
+      "stackTrace": {
+         "callFrames": [ {
+            "columnNumber": 2,
+            "functionName": "b",
+            "lineNumber": 19,
+            "scriptId": "30",
+            "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+         }, {
+            "columnNumber": 21,
+            "functionName": "d",
+            "lineNumber": 21,
+            "scriptId": "30",
+            "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+         }, {
+            "columnNumber": 0,
+            "functionName": "",
+            "lineNumber": 26,
+            "scriptId": "30",
+            "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+         }, {
+            "columnNumber": 1,
+            "functionName": "",
+            "lineNumber": 27,
+            "scriptId": "30",
+            "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+         } ]
+      },
+      "text": "Failed to load resource: the server responded with a status of 404 ()",
+      "timestamp": 1.661262360041843e+12,
+      "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+   }
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "args": [ {
+      "type": "string",
+      "value": "Could not load taxonomy information for the current page due server status"
+   } ],
+   "executionContextId": 5,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 15,
+         "functionName": "f.onload",
+         "lineNumber": 15,
+         "scriptId": "30",
+         "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+      }, {
+         "columnNumber": 2,
+         "functionName": "b",
+         "lineNumber": 19,
+         "scriptId": "30",
+         "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+      }, {
+         "columnNumber": 21,
+         "functionName": "d",
+         "lineNumber": 21,
+         "scriptId": "30",
+         "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+      }, {
+         "columnNumber": 0,
+         "functionName": "",
+         "lineNumber": 26,
+         "scriptId": "30",
+         "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+      }, {
+         "columnNumber": 1,
+         "functionName": "",
+         "lineNumber": 27,
+         "scriptId": "30",
+         "url": "https://www.salesforce.com/etc/clientlibs/sfdc-aem-master/clientlibs_www_tags.min.1b6dbce218e03b78c31afe6479e1dcca.js"
+      } ]
+   },
+   "timestamp": 1.661262360042272e+12,
+   "type": "warning"
+}
+[1661262368.068][DEBUG]: DevTools WebSocket Event: Log.entryAdded 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "13076.94",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "timestamp": 1.661262360129628e+12,
+      "url": "https://c.salesforce.com/c/public/app/mjs/identity.js"
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameAttached 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "64341B720554F5200CF121F6ED5D6473",
+   "parentFrameId": "CB93B15611743A6248B97655A14A6574",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 48564,
+         "functionName": "st.append",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 293713,
+         "functionName": "vn.insertPcHtml",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 358043,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 672,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 451,
+         "functionName": "a",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 357368,
+         "functionName": "xn.windowLoadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 47036,
+         "functionName": "st.trigger",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 118395,
+         "functionName": "Ut.loadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 359758,
+         "functionName": "Gn.LoadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 377422,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 505,
+         "functionName": "o",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      } ]
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "64341B720554F5200CF121F6ED5D6473"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "64341B720554F5200CF121F6ED5D6473",
+      "loaderId": "BE739C9D1518B5ABEFDD780430CADC96",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "CB93B15611743A6248B97655A14A6574",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "64341B720554F5200CF121F6ED5D6473",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 6,
+      "name": "",
+      "origin": "https://c.salesforce.com",
+      "uniqueId": "1876100022830742008.7857187991243909530"
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "64341B720554F5200CF121F6ED5D6473"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameDetached 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "64341B720554F5200CF121F6ED5D6473",
+   "reason": "remove"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameAttached 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "57E7B79DD47C82FD00607795B890FF27",
+   "parentFrameId": "CB93B15611743A6248B97655A14A6574",
+   "stack": {
+      "callFrames": [ {
+         "columnNumber": 48564,
+         "functionName": "st.append",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 293768,
+         "functionName": "vn.insertPcHtml",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 358043,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 672,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 451,
+         "functionName": "a",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 357368,
+         "functionName": "xn.windowLoadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 47036,
+         "functionName": "st.trigger",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 118395,
+         "functionName": "Ut.loadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 359758,
+         "functionName": "Gn.LoadBanner",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 377422,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1629,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 1734,
+         "functionName": "",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      }, {
+         "columnNumber": 505,
+         "functionName": "o",
+         "lineNumber": 6,
+         "scriptId": "42",
+         "url": "https://a.sfdcstatic.com/enterprise/salesforce/prod/6140/v16/oneTrust/scripttemplates/6.14.0/otBannerSdk.js"
+      } ]
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "57E7B79DD47C82FD00607795B890FF27"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameNavigated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none",
+         "explanations": [  ]
+      },
+      "crossOriginIsolatedContextType": "NotIsolatedFeatureDisabled",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "57E7B79DD47C82FD00607795B890FF27",
+      "loaderId": "47C25F78E8C8F5881D8760970B4FF3CD",
+      "mimeType": "text/html",
+      "name": "",
+      "parentId": "CB93B15611743A6248B97655A14A6574",
+      "secureContextType": "Secure",
+      "securityOrigin": "://",
+      "url": "about:blank"
+   },
+   "type": "Navigation"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "context": {
+      "auxData": {
+         "frameId": "57E7B79DD47C82FD00607795B890FF27",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 7,
+      "name": "",
+      "origin": "https://c.salesforce.com",
+      "uniqueId": "8186326811375230925.4263181027828329208"
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "57E7B79DD47C82FD00607795B890FF27"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Log.entryAdded 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "entry": {
+      "level": "error",
+      "networkRequestId": "13076.111",
+      "source": "network",
+      "text": "Failed to load resource: the server responded with a status of 403 ()",
+      "timestamp": 1.66126236041226e+12,
+      "url": "https://c.salesforce.com/wbin/www-core/f/g"
+   }
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Runtime.consoleAPICalled 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "args": [ {
+      "type": "string",
+      "value": "Failed to retrive resource"
+   }, {
+      "type": "string",
+      "value": "/wbin/www-core/f/g"
+   } ],
+   "executionContextId": 5,
+   "stackTrace": {
+      "callFrames": [ {
+         "columnNumber": 15895,
+         "functionName": "",
+         "lineNumber": 0,
+         "scriptId": "100",
+         "url": "https://www.salesforce.com/etc.bundles/sfdc-www/bundles/webpack-script-manifest-commonlyUsed-js.bundle.1e9c6ee07289b9dce6b0.js"
+      } ]
+   },
+   "timestamp": 1.6612623604127942e+12,
+   "type": "warning"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "CB93B15611743A6248B97655A14A6574"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "frameId": "4E67CF02F6E17D35D8ED29752D7B2EE2"
+}
+[1661262368.069][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "executionContextId": 6
+}
+[1661262368.069][INFO]: Waiting for pending navigations...
+[1661262368.069][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262368.070][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262368.070][INFO]: Done waiting for pending navigations. Status: ok
+[1661262368.073][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1661262368.079][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[1661262368.079][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262368.080][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262368.080][INFO]: Waiting for pending navigations...
+[1661262368.080][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262368.080][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262368.080][INFO]: Done waiting for pending navigations. Status: ok
+[1661262368.080][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='User']"}
+  (Session info: chrome=97.0.4692.99)
+[1661262371.126][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@title='User']"
+}
+[1661262371.126][INFO]: Waiting for pending navigations...
+[1661262371.126][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262371.127][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262371.127][INFO]: Done waiting for pending navigations. Status: ok
+[1661262371.128][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1661262371.130][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[1661262371.131][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262371.131][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262371.131][INFO]: Waiting for pending navigations...
+[1661262371.131][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262371.132][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262371.132][INFO]: Done waiting for pending navigations. Status: ok
+[1661262371.132][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='User']"}
+  (Session info: chrome=97.0.4692.99)
+[1661262374.155][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@title='User']"
+}
+[1661262374.155][INFO]: Waiting for pending navigations...
+[1661262374.155][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262374.156][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262374.156][INFO]: Done waiting for pending navigations. Status: ok
+[1661262374.158][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1661262374.160][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[1661262374.160][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262374.161][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262374.161][INFO]: Waiting for pending navigations...
+[1661262374.161][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262374.161][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262374.161][INFO]: Done waiting for pending navigations. Status: ok
+[1661262374.161][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='User']"}
+  (Session info: chrome=97.0.4692.99)
+[1661262377.174][INFO]: [d8099030ce92a8c6871014ebed2c6c93] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@title='User']"
+}
+[1661262377.174][INFO]: Waiting for pending navigations...
+[1661262377.174][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262377.176][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262377.176][INFO]: Done waiting for pending navigations. Status: ok
+[1661262377.177][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "awaitPromise": true,
+   "expression": "(function() { // Copyright (c) 2012 The Chromium Authors. All rights reserved.\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum f...",
+   "returnByValue": true
+}
+[1661262377.180][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "type": "object",
+      "value": {
+         "status": 0,
+         "value": null
+      }
+   }
+}
+[1661262377.180][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262377.181][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262377.181][INFO]: Waiting for pending navigations...
+[1661262377.181][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "expression": "1"
+}
+[1661262377.181][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) 4E67CF02F6E17D35D8ED29752D7B2EE2 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1661262377.181][INFO]: Done waiting for pending navigations. Status: ok
+[1661262377.181][INFO]: [d8099030ce92a8c6871014ebed2c6c93] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='User']"}
+  (Session info: chrome=97.0.4692.99)

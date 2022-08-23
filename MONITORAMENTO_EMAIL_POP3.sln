@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MONITORAMENTO_EMAIL_POP3", "MONITORAMENTO_EMAIL_POP3\MONITORAMENTO_EMAIL_POP3.csproj", "{35BF4170-6B77-4019-A723-B4A8B5911F2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35BF4170-6B77-4019-A723-B4A8B5911F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BF4170-6B77-4019-A723-B4A8B5911F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BF4170-6B77-4019-A723-B4A8B5911F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BF4170-6B77-4019-A723-B4A8B5911F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {103CDC7A-7E71-452D-AD3C-90699F9E4D00}
+	EndGlobalSection
+EndGlobal
